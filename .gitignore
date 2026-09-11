@@ -205,6 +205,43 @@ tempCodeRunnerFile.py
 
 # Ruff stuff:
 .ruff_cache/
+work_dirs/
+outputs/
+logs/
+*.json
+*.jsonl
+*.pkl
+*.pth
+*.pt
+*.ckpt
+*.onnx
+data/
+dataset/
+datasets/
+checkpoints/
+pretrained_model/
+.idea/
+.vscode/
+build.txt
+runtime.txt
+configs2/COCO/P2Seg/*
+!configs2/COCO/P2Seg/P2SegDistillBoxinst_r50_fpn_1x_coco_ms.py
+configs2/VOC/P2Seg/*
+!configs2/VOC/P2Seg/P2SegDistillBoxinst_r50_fpn_3x_voc_07_ms.py
+configs2/COCO/P2BNet/*
+!configs2/COCO/P2BNet/P2BNet_r50_fpn_1x_coco_ms.py
+configs2/VOC/P2BNet/*
+!configs2/VOC/P2BNet/P2BNet_r50_fpn_1x_VOC_07_ms.py
+configs2/COCO/detection/*
+!configs2/COCO/detection/faster_rcnn_r50_fpn_1x_coco.py
+configs2/VOC/detection/*
+!configs2/VOC/detection/faster_rcnn_r50_fpn_3x_VOC_ms.py
+configs2/COCO/base/
+configs2/VOC/NoiseBox/
+huicv/deps/Cityscapes/
+huicv/deps/CrowdCounting/
+huicv/deps/mini_maskrcnn_benchmark/
+huicv/deps/without_bbox/
 
 # PyPI configuration file
 .pypirc
